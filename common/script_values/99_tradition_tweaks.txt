@@ -1,2 +1,6 @@
 # tradition_base_cost = 2000
 tradition_base_cost = 1000
+# tradition_incompatible_ethos_penalty = 2000
+tradition_incompatible_ethos_penalty = 1000
+# tradition_unfulfilled_criteria_penalty = 3000
+tradition_unfulfilled_criteria_penalty = 1500
