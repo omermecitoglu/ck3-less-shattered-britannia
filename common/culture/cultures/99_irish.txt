@@ -7,10 +7,9 @@ irish = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
-		tradition_poetry
 		tradition_wetlanders
 		tradition_maritime_mercantilism
-		tradition_monastic_communities
+		tradition_hit_and_run
 	}
 	
 	name_list = name_list_irish
