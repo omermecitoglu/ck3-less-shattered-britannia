@@ -1,0 +1,2 @@
+# tradition_base_cost = 2000
+tradition_base_cost = 1000
