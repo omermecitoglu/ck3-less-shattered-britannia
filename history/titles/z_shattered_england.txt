@@ -150,7 +150,7 @@ c_bedford = {
 	867.1.1 = {
 		change_development_level = 5
 		holder = lord_of_bedford
-		liege = d_somerset
+		liege = d_hereford
 	}
 }
 
