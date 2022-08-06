@@ -1,0 +1,3 @@
+capital_province_modifier = {
+	monthly_income = 2
+}
