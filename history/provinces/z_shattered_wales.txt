@@ -1,0 +1,5 @@
+1657 = {
+	769.1.1 = {
+		special_building_slot = the_tower_of_london_01
+	}
+}

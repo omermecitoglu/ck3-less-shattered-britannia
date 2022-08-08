@@ -29,6 +29,9 @@
 }
 
 28 = {
+	769.1.1 = {
+		special_building_slot = the_tower_of_london_01
+	}
 	867.1.1 = { # Dublin
 		religion = insular_celtic
 		culture = irish
