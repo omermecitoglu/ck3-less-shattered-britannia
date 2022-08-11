@@ -1,9 +1,3 @@
-1569 = {
-	769.1.1 = {
-		special_building_slot = the_tower_of_london_01
-	}
-}
-
 1632 = {
 	religion = catholic
 	culture = mercian
@@ -17,9 +11,6 @@
 1603 = {
 	religion = catholic
 	culture = mercian
-	769.1.1 = {
-		special_building_slot = the_tower_of_london_01
-	}
 }
 
 1600 = {
@@ -95,9 +86,6 @@
 1595 = {
 	religion = catholic
 	culture = northumbrian
-	769.1.1 = {
-		special_building_slot = the_tower_of_london_01
-	}
 }
 
 1639 = {
