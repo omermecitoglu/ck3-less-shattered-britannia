@@ -17,6 +17,9 @@
 1727 = {
 	religion = catholic
 	culture = scottish
+	769.1.1 = {
+		special_building_slot = edinburgh_castle_01
+	}
 }
 
 1731 = {
@@ -83,6 +86,9 @@
 
 1692 = {
 	holding = castle_holding
+	769.1.1 = {
+		special_building = calanais_standing_stones_01
+	}
 }
 
 6 = {

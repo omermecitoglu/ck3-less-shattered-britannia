@@ -1,0 +1,5 @@
+1667 = {
+	769.1.1 = {
+		special_building_slot = caernarfon_castle_01
+	}
+}

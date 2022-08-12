@@ -1,0 +1,459 @@
+# https://www.historic-uk.com/Blog/Top-10-Historical-Sites-in-the-UK/
+# https://www.irelandbeforeyoudie.com/historical-places-in-ireland/
+# https://travel2next.com/landmarks-scotland/
+
+# england
+
+the_tower_of_london_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_tower_of_london.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		dread_gain_mult = 0.3
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	county_modifier = {
+		development_growth = 0.1
+		development_growth_factor = 0.1
+		tax_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+sherwood_forest_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_royal_forest.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		archers_damage_mult = 0.10
+		archers_toughness_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+warwick_castle_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_aurelian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		skirmishers_damage_mult = 0.10
+		skirmishers_toughness_mult = 0.05
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	county_modifier = {
+		development_growth = 0.1
+		development_growth_factor = 0.1
+		tax_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+fountains_abbey_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_notre_dame.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety_gain_per_knight_mult = 0.03
+	}
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+# scotland
+
+edinburgh_castle_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		hills_advantage = 2
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	county_modifier = {
+		development_growth = 0.1
+		development_growth_factor = 0.1
+		tax_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+calanais_standing_stones_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_stonehenge.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		learning = 2
+		monthly_learning_lifestyle_xp_gain_mult = 0.15
+		faith_conversion_piety_cost_mult = -0.2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+# wales
+
+caernarfon_castle_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_walls_of_genoa.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		hills_advantage = 2
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	county_modifier = {
+		development_growth = 0.1
+		development_growth_factor = 0.1
+		tax_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+# ireland
+
+# clonmacnoise_01
+# rock_of_cashel_01
+# reginalds_tower_01
+
+ceide_fields_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_cereal_fields.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+		wetlands_advantage = 2
+	}
+
+	county_modifier = {
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}
+
+hill_of_tara_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_tower_of_london_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_hill_farms.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		knight_limit = 2
+		monthly_prestige = 0.3
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+	}
+	
+	type = special
+}

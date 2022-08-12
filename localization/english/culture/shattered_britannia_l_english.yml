@@ -10,3 +10,43 @@
   pirates:0 "Korsan"
   pirates_prefix:0 "Korsan"
   pirates_collective_noun:0 "Korsanlar"
+
+  building_type_sherwood_forest_01:0 "Sherwood Forest"
+  building_type_sherwood_forest_01_desc:0 "Sherwood Forest is a royal forest in Nottinghamshire, England, famous because of its historic association with the legend of Robin Hood. The area has been wooded since the end of the Last Glacial Period."
+  building_sherwood_forest_01:0 "$building_type_sherwood_forest_01$"
+  building_sherwood_forest_01_desc:0 "$building_type_sherwood_forest_01_desc$"
+
+  building_type_warwick_castle_01:0 "Warwick Castle"
+  building_type_warwick_castle_01_desc:0 "Warwick Castle is a medieval castle developed from a wooden fort, originally built by William the Conqueror during 1068. Warwick is the county town of Warwickshire, England, situated on a meander of the River Avon. The original wooden motte-and-bailey castle was rebuilt in stone during the 12th century."
+  building_warwick_castle_01:0 "$building_type_warwick_castle_01$"
+  building_warwick_castle_01_desc:0 "$building_type_warwick_castle_01_desc$"
+
+  building_type_fountains_abbey_01:0 "Fountains Abbey"
+  building_type_fountains_abbey_01_desc:0 "Fountains Abbey is one of the largest and best preserved ruined Cistercian monasteries in England. It is located approximately 3 miles south-west of Ripon in North Yorkshire, near to the village of Aldfield."
+  building_fountains_abbey_01:0 "$building_type_fountains_abbey_01$"
+  building_fountains_abbey_01_desc:0 "$building_type_fountains_abbey_01_desc$"
+
+  building_type_edinburgh_castle_01:0 "Edinburgh Castle"
+  building_type_edinburgh_castle_01_desc:0 "Edinburgh Castle is a historic castle in Edinburgh, Scotland. It stands on Castle Rock, which has been occupied by humans since at least the Iron Age, although the nature of the early settlement is unclear."
+  building_edinburgh_castle_01:0 "$building_type_edinburgh_castle_01$"
+  building_edinburgh_castle_01_desc:0 "$building_type_edinburgh_castle_01_desc$"
+
+  building_type_calanais_standing_stones_01:0 "Calanais Standing Stones"
+  building_type_calanais_standing_stones_01_desc:0 "The Callanish Stones are an arrangement of standing stones placed in a cruciform pattern with a central stone circle. They were erected in the late Neolithic era, and were a focus for ritual activity during the Bronze Age."
+  building_calanais_standing_stones_01:0 "$building_type_calanais_standing_stones_01$"
+  building_calanais_standing_stones_01_desc:0 "$building_type_calanais_standing_stones_01_desc$"
+
+  building_type_caernarfon_castle_01:0 "Caernarfon Castle"
+  building_type_caernarfon_castle_01_desc:0 "Caernarfon Castle - often anglicised as Carnarvon Castle or Caernarvon Castle - is a medieval fortress in Caernarfon, Gwynedd, north-west Wales cared for by Cadw, the Welsh Government's historic environment service."
+  building_caernarfon_castle_01:0 "$building_type_caernarfon_castle_01$"
+  building_caernarfon_castle_01_desc:0 "$building_type_caernarfon_castle_01_desc$"
+
+  building_type_ceide_fields_01:0 "Céide Fields"
+  building_type_ceide_fields_01_desc:0 "The Céide Fields in north County Mayo are an ancient Neolithic landscape and the world's oldest known field systems.\n\nThe fields date back to 5000 BC! The fields remained hidden for over five millennia until they were unearthed in the 1930s.\n\nThus, fields, houses, and tombs had all been concealed and perfectly preserved underneath the bogland."
+  building_ceide_fields_01:0 "$building_type_ceide_fields_01$"
+  building_ceide_fields_01_desc:0 "$building_type_ceide_fields_01_desc$"
+
+  building_type_hill_of_tara_01:0 "Hill of Tara"
+  building_type_hill_of_tara_01_desc:0 "The Hill of Tara is a hill and ancient ceremonial and burial site near Skryne in County Meath, Ireland. Tradition identifies the hill as the inauguration place and seat of the High Kings of Ireland; it also appears in Irish mythology."
+  building_hill_of_tara_01:0 "$building_type_hill_of_tara_01$"
+  building_hill_of_tara_01_desc:0 "$building_type_hill_of_tara_01_desc$"

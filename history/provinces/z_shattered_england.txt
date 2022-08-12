@@ -11,6 +11,9 @@
 1603 = {
 	religion = catholic
 	culture = mercian
+	769.1.1 = {
+		special_building_slot = warwick_castle_01
+	}
 }
 
 1600 = {
@@ -41,6 +44,9 @@
 1618 = {
 	religion = catholic
 	culture = mercian
+	769.1.1 = {
+		special_building = sherwood_forest_01
+	}
 }
 
 1643 = {
@@ -76,6 +82,9 @@
 1591 = {
 	religion = catholic
 	culture = northumbrian
+	769.1.1 = {
+		special_building_slot = fountains_abbey_01
+	}
 }
 
 1588 = {

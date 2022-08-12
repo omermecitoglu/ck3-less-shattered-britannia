@@ -29,6 +29,9 @@
 }
 
 28 = {
+	769.1.1 = {
+		special_building = hill_of_tara_01
+	}
 	867.1.1 = { # Dublin
 		religion = insular_celtic
 		culture = irish
@@ -79,6 +82,9 @@
 }
 
 8745 = {
+	769.1.1 = {
+		special_building = ceide_fields_01
+	}
 	867.1.1 = {
 		holding = castle_holding
 	}
