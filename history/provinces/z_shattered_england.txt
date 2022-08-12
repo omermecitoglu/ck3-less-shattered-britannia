@@ -116,3 +116,9 @@
 	religion = catholic
 	culture = northumbrian
 }
+
+1574 = {
+	769.1.1 = {
+		special_building = tintagel_castle_01
+	}
+}

@@ -114,3 +114,9 @@
 		holding = castle_holding
 	}
 }
+
+1695 = {
+	769.1.1 = {
+		special_building = glasgow_cathedral_01
+	}
+}

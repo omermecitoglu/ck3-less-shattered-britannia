@@ -50,3 +50,13 @@
   building_type_hill_of_tara_01_desc:0 "The Hill of Tara is a hill and ancient ceremonial and burial site near Skryne in County Meath, Ireland. Tradition identifies the hill as the inauguration place and seat of the High Kings of Ireland; it also appears in Irish mythology."
   building_hill_of_tara_01:0 "$building_type_hill_of_tara_01$"
   building_hill_of_tara_01_desc:0 "$building_type_hill_of_tara_01_desc$"
+
+  building_type_tintagel_castle_01:0 "Tintagel Castle"
+  building_type_tintagel_castle_01_desc:0 "Tintagel Castle is a cliff-top medieval fortification located on the peninsula of Tintagel Island adjacent to the village of Tintagel (Trevena), in North Cornwall. Inextricably linked with the legend of King Arthur, this dramatic castle and coastline has inspired writers and artists for centuries. It's thought the site may have been occupied in the Romano-British period; however, it was during the early medieval period when Tintagel Castle was first settled."
+  building_tintagel_castle_01:0 "$building_type_tintagel_castle_01$"
+  building_tintagel_castle_01_desc:0 "$building_type_tintagel_castle_01_desc$"
+
+  building_type_glasgow_cathedral_01:0 "St Mungo's Cathedral"
+  building_type_glasgow_cathedral_01_desc:0 "St Mungo's Cathedral (also known as Glasgow Cathedral) is a parish church of the Church of Scotland in Glasgow. It is the oldest cathedral in mainland Scotland and the oldest building in Glasgow."
+  building_glasgow_cathedral_01:0 "$building_type_glasgow_cathedral_01$"
+  building_glasgow_cathedral_01_desc:0 "$building_type_glasgow_cathedral_01_desc$"
