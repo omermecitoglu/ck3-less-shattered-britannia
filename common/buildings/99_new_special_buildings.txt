@@ -504,14 +504,14 @@ ceide_fields_01 = {
 	cost_gold = 1000
 
 	character_modifier = {
-		tax_mult = 0.1
-		development_growth_factor = 0.1
 		wetlands_advantage = 2
 	}
-
-	county_modifier = {
-	}
 	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+	}
+
 	ai_value = {
 		base = 100
 		culture_likely_to_fortify_modifier = yes

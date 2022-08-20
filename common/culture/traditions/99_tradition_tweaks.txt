@@ -84,3 +84,97 @@ tradition_swords_for_hire = {
 		}
 	}
 }
+
+tradition_wetlanders = {
+	category = realm
+
+	layers = {
+		0 = diplo
+		1 = western
+		4 = svamp.dds
+	}
+	
+	can_pick = {
+		custom_tooltip = {
+			text = culture_in_wetlands_desc
+			any_culture_county = {
+				any_county_province = {
+					terrain = wetlands
+				}
+			}
+		}
+	}
+	
+	parameters = {
+		peat_quarries_building_bonuses = yes
+	}
+	character_modifier = {
+		# wetlands_advantage = 10
+	}
+	county_modifier = {
+		wetlands_development_growth_factor = 0.25
+	}
+	province_modifier = {
+		wetlands_construction_gold_cost = -0.25
+		wetlands_holding_construction_gold_cost = -0.25
+		wetlands_levy_size = 0.1
+		wetlands_supply_limit_mult = 0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					any_in_list = { list = traits this = flag:ethos_bellicose }
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							count >= 3
+							any_county_province = {
+								terrain = wetlands
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = culture_in_wetlands_count_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							count >= 3
+							culture = scope:character.culture
+							any_county_province = {
+								terrain = wetlands
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
